@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.body{
+    background-color: rgb(241, 241, 241);
+    height: 100vh;
+}
+
+nav{
+    background-color: white;
+    height: 6.5vh;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#nav-mobile{
+    display: flex;
+}
+
+.btn{
+    background-color: rgb(69, 69, 241);
+    color: aliceblue;
+    padding: 6px;
+    border-radius: 3px;    
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    color: rgb(30, 173, 221);
+    padding: 10px;
+}
+
+nav a{
+    color: blue;
+}
+
+
+.white{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.full{
+    width: 100%;
+    max-width:100%;
+}
+
+.label{
+    padding: 10px;
+    color: gray;
+}
+
+.input{
+    width: 100%;
+    border: none;
+    padding: 10px;
+    outline: none;
+    border-bottom: 1px blue solid;
+}
+
+form{
+    background-color: white;
+}
+
+.submit{
+    border: none;
+    padding: 8px 20px;
+    cursor: pointer;
+}
+
+.red-text{
+    color: rgb(255, 60, 60);
+    font-size: 14px;
+}
+
+.card{
+    width: 100%;
+}
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+
+.row{
+    align-items: center;
+    flex-direction: column      ;
+}
+
+.name{
+    color: black;
+}
+
+
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
