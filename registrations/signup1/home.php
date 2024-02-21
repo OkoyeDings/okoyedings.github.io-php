@@ -19,7 +19,12 @@ if(!isset($_SESSION['username'])){
 <body>
 <nav class=" p-3">
 <h2 class="">Welcome <?php echo $_SESSION['username']; ?></h2> 
-<div> <a href="logout.php" class="btn btn-primary">Log out</a></div>
+<div > 
+    <ul class="user">
+        <li><a href="../curd/user.php">Add user</a></li>
+        <li><a href="logout.php" class="btn btn-primary">Log out</a></li>
+    </ul>
+</div>
 </nav>   
 
 </body>
